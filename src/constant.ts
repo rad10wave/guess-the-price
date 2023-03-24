@@ -1,4 +1,4 @@
-export const teams = ["Mumbai", "Noida", "Hyderabad"];
+export const teams = ["Mumbai", "NOIDA", "Hyderabad"];
 
 export interface ProductProps {
     image: string;
