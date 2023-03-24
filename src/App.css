@@ -1,0 +1,63 @@
+body {
+  font-family: arial, sans-serif;
+}
+
+.product-details {
+  display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.product-image {
+  max-width: 250px;
+  margin: 0 auto;
+}
+
+/*  BUTTONS  */
+.btn {
+  --button-height: 48px;
+  overflow: hidden;
+  outline: none;
+  background-color: #1f2024;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-size: 1.1em;
+  border: none;
+  color: white;
+  font-family: "Nunito", sans-serif;
+  cursor: pointer;
+  position: relative;
+  transition: padding 0.3s;
+  margin-left: 10px;
+}
+
+.btn:disabled {
+  background-color: #6d6d6d;
+}
+
+.label {
+  height: 20px;
+  outline: none;
+  border-radius: 10px;
+  padding: 12px 25px;
+  font-size: 1.1em;
+}
+
+
+table {
+  border-collapse: collapse;
+  position: absolute;
+  top: 20px;
+  right: 22px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
