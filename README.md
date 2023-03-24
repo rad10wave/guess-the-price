@@ -1,46 +1,32 @@
-# Getting Started with Create React App
+# Guess The Price
+Guess The Price is a fun React web application that challenges three teams to guess the prices of various products. Each team takes turns guessing the price of a product, and is awarded points based on how close their guess is to the actual price. The team with the most points at the end of the game wins!
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Getting Started
+To get started with Guess The Price, you'll need to clone this repository to your local machine. Once you have done that, you can navigate to the project directory and run the following command to install the necessary dependencies:
 
-In the project directory, you can run:
 
-### `npm start`
+`npm install`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After the dependencies have been installed, you can start the development server by running:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+`npm start`
+This will launch the app in development mode on http://localhost:3000. You can open this URL in your web browser to view the app.
 
-### `npm run build`
+### How to Play
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+The game consists of several rounds, with each round featuring a different product that the respective team must guess the price of. The teams take turns guessing the price of the product, and are awarded points based on how close their guess is to the actual price.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After all teams have guessed, the actual price of the product is revealed, and the team with the closest guess is awarded 10 points.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+The game continues for several rounds, with the team with the most points at the end of the game being declared the winner.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Technologies Used
+Guess The Price was built using React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Contributing
+If you'd like to contribute to Guess The Price, feel free to submit a pull request!
